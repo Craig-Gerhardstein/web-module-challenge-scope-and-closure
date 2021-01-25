@@ -39,7 +39,7 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
 function counterMaker() {
   let count = 0;
   return function counter() {
-   return count++;
+   return count++
   }
 }
 
